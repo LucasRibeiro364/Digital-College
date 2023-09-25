@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form id="Cadastro">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="Nome" required> 
+
+        <br><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="Senha" name="Senha" required>
+        
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="number">Idade:</label>
+        <input type="number" id="Idade" name="idade" required>
+
+        <br><br>
+
+        <label for="data nascimento">Data de Nascimento:</label>
+        <input type="date" id="data nascimento" name="Data de Nascimento" required>
+
+        <br><br>
+
+        <!-- <label for="opcao1">Opção 1:</label>
+        <input type="radio" id="opcao1" name="opcao" value="opcao1">
+        <label for="opcao2">Opção 2:</label>
+        <input type="radio" id="opcao2" name="opcao" value="opcao2"> -->
+
+        <label for="escolhaOpcao">Curso:</label>
+        <select id="escolhaOpcao" name="escolhaOpcao">
+        <option value="opcao1">Full Stack</option>
+        <option value="opcao2">Front-End</option>
+        <option value="opcao3">Back-end</option>
+        </select>
+
+        <br><br>
+
+        <p>Gênero:</p>
+
+        
+        <input type="radio" id="Masculino" name="rating" value="Masculino">
+        <label for="Masculino">Masculino</label>
+
+        <br>
+
+        <input type="radio" id="Feminino" name="rating" value="Feminino">
+        <label for="Feminino">Feminino</label>
+
+        <br>
+
+        <input type="radio" id="Outros" name="rating" value="Outros">
+        <label for="Outros">Outros</label>
+
+        <br>
+
+        <p>Experiência:</p>
+
+        <input type="radio" id="Iniciante" name="rating2" value="Iniciante">
+        <label for="Iniciante">Iniciante</label>
+
+        <br>
+
+        <input type="radio" id = "Intermediário" name="rating2" value="Intermediário">
+        <label for="Intermediário">Intermediário</label>
+
+        <br>
+
+        <input type="radio" id="Avançado" name="rating2" value="Avançado">
+        <label for="Avançado">Avançado</label>
+
+        <br><br>
+
+        <input type="checkbox" id="Termo" name="interest" value="Termo">
+        <label for="Termo">Aceito os termos e condições.</label>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+        <br><br>
+
+        <details>
+            <summary>Por que precisamos dessas informações?</summary>
+            <ul>
+            <li>Usamos seu nome para personalizar nossa comunicação.</li>
+            <li>Seu e-mail é necessário para enviar confirmações e atualizações sobre sua inscrição.</li>
+            <li>A data de nascimento nos ajuda a garantir que estamos fornecendo conteúdo apropriado para sua idade.</li>
+            <li>Ao selecionar seu gênero e experiência, podemos adaptar melhor nossos materiais para atender às suas necessidades específicas.</li>
+            </ul>
+            <option>Ao selecionar seu gênero e experiência, podemos adaptar melhor nossos materiais para atender às suas necessidades específicas.</option>
+        </details>
+
+    
+    
+    </form>
+</body>
+</html>
