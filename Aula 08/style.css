@@ -1,0 +1,30 @@
+:root{
+    --spacing-tiny: 4px;
+    --spacing-smaller: 8px;
+    --spacing-small: 12px;
+    --spacing-normal: 16px;
+    --spacing-medium: 24px;
+    --spacing-large: 32px;
+    --spacing-huge: 48px;
+    --spacing-massive: 64px;
+
+    --primary-primary-600: #5a6d57;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.green-bar{
+    display: flex;
+    justify-content: center;
+    background-color: #5a6d57;
+    color: white;
+    padding: var(--spacing-tiny);
+    font-size: 12px;
+}
