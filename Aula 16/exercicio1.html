@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Aula 16/style.css">
+</head>
+<body>
+    <input type="number" id="numero1" name="numero1">
+    +
+    <input type="number" id="numero2" name="numero2">
+
+    <!-- <div id="resultado">O resultado de x + y é</div> -->
+    <p id="result"></p>
+
+    <button onclick="onSumClick()">Somar</button>
+        
+    <script>
+        function onSumClick() {
+            const numero1 = Number(window.document.getElementById("numero1").value);
+            const numero2 = Number(window.document.getElementById("numero2").value);
+            const result = somar(numero1, numero2);
+            showResult(numero1, numero2, result)
+        }
+
+        function somar(numero1, numero2) {
+            return numero1 +  numero2;
+        }
+
+        function showResult(numero1, numero2,result) {
+            const pResult = window.document.getElementById("result")
+            pResult.innerText = ` O resultado de ${numero1} + ${numero2} é: ${result}`
+        }
+            
+        
+    </script>
+</body>
+</html>
